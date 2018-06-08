@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{3:function(e,n,t){"use strict";t.r(n);var r=t(0);n.default=class extends r.Component{render(){return r.createElement("div",null,"Hello ",this.props.target,"!")}}}}]);
+//# sourceMappingURL=0.bundle.js.map
