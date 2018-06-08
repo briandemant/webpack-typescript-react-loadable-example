@@ -1,19 +1,17 @@
+
 {
 	"compilerOptions": {
-		"outDir": "./dist/server/",
+		"outDir": "./dist/client/",
 		"sourceMap": true,
 		"noImplicitAny": true,
 
 		"module": "commonjs", // produces the mimic import() statement to be input for Webpack Code Splitting
 
-		"target": "es2015",
+		"target": "esnext",
 		"jsx": "react",
 		"lib": [ "es2015", "dom" ]
 	},
 	"include": [
 		"./src/**/*"
-	],
-	"exclude": [
-		"./node_modules/**"
 	]
 }
